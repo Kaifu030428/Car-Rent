@@ -40,8 +40,12 @@ import car_image1 from "./car_image1.png"
 import car_image2 from "./car_image2.png"
 import car_image3 from "./car_image3.png"
 import car_image4 from "./car_image4.png"
+import dzireImage from "./dzire.png";
+import alto800Image from "./alto 800.png";
+import wagonRImage from "./wagonr.png";
+import santroImage from "./santro.png";
 
-export const cityList = ['New York', 'Los Angeles', 'Houston', 'Chicago']
+export const cityList = ['Mumbai', 'Delhi', 'Bangalore', 'Chennai'];
 
 export const assets = {
     logo,
@@ -113,16 +117,16 @@ export const dummyCarData = [
     {
         "_id": "67ff5bc069c03d4e45f30b77",
         "owner": "67fe3467ed8a8fe17d0ba6e2",
-        "brand": "BMW",
-        "model": "X5",
-        "image": car_image1,
+        "brand": "Maruti Suzuki",
+        "model": "Swift Dzire",
+        "image": dzireImage,
         "year": 2006,
-        "category": "SUV",
+        "category": "",
         "seating_capacity": 4,
         "fuel_type": "Hybrid",
         "transmission": "Semi-Automatic",
-        "pricePerDay": 300,
-        "location": "New York",
+        "pricePerDay": 2200,
+        "location": "Mumbai",
         "description": "The BMW X5 is a mid-size luxury SUV produced by BMW. The X5 made its debut in 1999 as the first SUV ever produced by BMW.",
         "isAvaliable": true,
         "createdAt": "2025-04-16T07:26:56.215Z",
@@ -130,16 +134,16 @@ export const dummyCarData = [
     {
         "_id": "67ff6b758f1b3684286a2a65",
         "owner": "67fe3467ed8a8fe17d0ba6e2",
-        "brand": "Toyota",
-        "model": "Corolla",
-        "image": car_image2,
+        "brand": "Maruti Suzuki",
+        "model": "Alto 800",
+        "image": alto800Image,
         "year": 2021,
-        "category": "Sedan",
+        "category": "",
         "seating_capacity": 4,
         "fuel_type": "Diesel",
         "transmission": "Manual",
-        "pricePerDay": 130,
-        "location": "Chicago",
+        "pricePerDay": 1800,
+        "location": "Delhi",
         "description": "The Toyota Corolla is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
         "isAvaliable": true,
         "createdAt": "2025-04-16T08:33:57.993Z",
@@ -147,16 +151,16 @@ export const dummyCarData = [
     {
         "_id": "67ff6b9f8f1b3684286a2a68",
         "owner": "67fe3467ed8a8fe17d0ba6e2",
-        "brand": "Jeep ",
-        "model": "Wrangler",
-        "image": car_image3,
+        "brand": "Maruti Suzuki",
+        "model": "WagonR",
+        "image": wagonRImage,
         "year": 2023,
-        "category": "SUV",
+        "category": "",
         "seating_capacity": 4,
         "fuel_type": "Hybrid",
         "transmission": "Automatic",
-        "pricePerDay": 200,
-        "location": "Los Angeles",
+        "pricePerDay": 1800,
+        "location": "Bangalore",
         "description": "The Jeep Wrangler is a mid-size luxury SUV produced by Jeep. The Wrangler made its debut in 2003 as the first SUV ever produced by Jeep.",
         "isAvaliable": true,
         "createdAt": "2025-04-16T08:34:39.592Z",
@@ -164,16 +168,16 @@ export const dummyCarData = [
     {
         "_id": "68009c93a3f5fc6338ea7e34",
         "owner": "67fe3467ed8a8fe17d0ba6e2",
-        "brand": "Ford",
-        "model": "Neo 6",
-        "image": car_image4,
+        "brand": "Hyundai",
+        "model": "Santro",
+        "image": santroImage,
         "year": 2022,
-        "category": "Sedan",
+        "category": "",
         "seating_capacity": 2,
         "fuel_type": "Diesel",
         "transmission": "Semi-Automatic",
-        "pricePerDay": 209,
-        "location": "Houston",
+        "pricePerDay": 1600,
+        "location": "Chennai",
         "description": "This is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
         "isAvaliable": true,
         "createdAt": "2025-04-17T06:15:47.318Z",

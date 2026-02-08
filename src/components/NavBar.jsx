@@ -15,11 +15,12 @@ const NavBar = ({ setShowLogin }) => {
         w-full flex items-center justify-between px-6 py-4 shadow-sm border-b
         ${locations.pathname === '/' ? "bg-light" : "bg-white"}
       `}
+      aria-label="Main navigation"
     >
 
       {/* Logo */}
-      <Link to='/'>
-        <img className="h-12 cursor-pointer" src={assets.logo} alt="logo" />
+      <Link to='/' aria-label="Go to home page">
+        <img className="h-12 cursor-pointer" src={assets.logo} alt="Car rental logo" />
       </Link>
 
       {/* Desktop + Mobile Menu */}
@@ -44,6 +45,7 @@ const NavBar = ({ setShowLogin }) => {
             key={index}
             to={link.path}
             onClick={() => setOpen(false)}
+            aria-label={`Navigate to ${link.name}`}
             className={`
               text-lg font-medium
               text-gray-700 hover:text-blue-600 transition
